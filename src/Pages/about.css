@@ -1,0 +1,37 @@
+.aboutPage{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 50vh;
+    border-radius: 10px;
+    padding: 0px 20px;
+    gap: 20px;
+}
+.aboutPage .explore_our_vans_box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: start;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 98);
+}
+.aboutPage .explore_our_vans_box a button{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    max-width: 200px;
+}
+.aboutPage .explore_our_vans_box a button{
+    color: white;
+    text-decoration: none;
+}
